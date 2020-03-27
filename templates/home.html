@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{{ titre }}</title>
+    </head>
+<BODY STYLE="font-family: Arial, sans-serif" >
+
+<h1>Calibration</h1>
+        <div border=''>
+          <form method="post" action="/uploadCal" enctype="multipart/form-data">
+            <input type="hidden" name="MAX_FILE_SIZE" value="100000000"  REQUIRED />
+            <input type="file" name="fichier" id="fichier" multiple="true" ACCEPT=".csv" REQUIRED/><br />
+            <br>
+
+            <label for="LN">Type d'encodage</label>
+            <select id="LN" name="LN" REQUIRED>
+              <option value="FR">FR</option>
+              <option value="US">US</option>
+            </select>
+            <br>
+            <br>
+
+          <div align="left">
+            <input type="submit" value="Cal determination" onclick="loading();" />
+            <input type="reset" name="Annuler" value="Annuler"/>
+          </form>
+          </div>
+        </div>
+<h1>Mesure K+</h1>        
+        <div border=''>
+          <form method="post" action="/uploadK" enctype="multipart/form-data">
+            <input type="hidden" name="MAX_FILE_SIZE" value="100000000"  REQUIRED />
+            <input type="file" name="fichier" id="fichier" multiple="true" ACCEPT=".csv" REQUIRED/><br />
+            <br>
+            <br>
+            <label for="LN">Type d'encodage</label>
+            <select id="LN" name="LN" REQUIRED>
+              <option value="FR">FR</option>
+              <option value="US">US</option>
+            </select>
+            <br>
+              <br>
+              <label for="pente">Pente Voie</label>
+            <input type="number" id="pente" name="pente"><br />
+
+          <div align="left">
+            <input type="submit" value="MesureK" onclick="loading();"/>
+            <input type="reset" name="Annuler" value="Annuler"/>
+          </div>
+          </form>
+        </div>
+      </div>
+
+  </BODY>
+</html>

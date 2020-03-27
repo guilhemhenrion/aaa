@@ -1,0 +1,2 @@
+V0.10
+Ajout 'operateur', 'wafer' et 'test' dans les données csv output de mesureK

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<h2>
+    <head>
+        <meta charset="utf-8" />
+        <title>MesureK</title>
+    </head>
+
+
+    <p>
+        Mesure de Potassium avec:
+        <ul>
+            <li>Mesure potassiumNoDC (sans correction de derive)<br>
+    pota = C * 10 ** ((moyenPot3(data, int(dateSaut(data) - 5)) - moyenPot3(data, int(dateSaut(data) + 40))) / p)
+</li>
+                <li>Mesure potassiumDC (avec correction de derive - projection de +40 à 0 derive calcule sur +35/+45)<br>
+                    C * 10 ** (((moyenPot3(data, int(dateSaut(data) - 5))) - (moyenPot3(data, int(dateSaut(data) + 40))-detDriftEtalo(data)*40/60)) / p)
+
+                </li>
+               <li>Mesure potassiumDC_superCorr (potentiel corrige avec 4,7 + 1,7*inversion derive)
+
+               </li>
+    </p>
+    <h2><p>Telechargement resultats ici:</p></h2> <a href="{{ url_for('download', filename=filename) }}">Download</a>
+
+    <h2>Mesures DC</h2>
+    <img src="{{ url_for('download', filename =filenameGraphe) }}" alt="corr">
+<img src="{{ url_for('download', filename =filenameError) }}" alt="corr">
+    <h2>Mesures DC Super correct</h2>
+
+<img src="{{ url_for('download', filename =filenameGrapheSuper) }}" alt="corr">
+<img src="{{ url_for('download', filename =filenameErrorSuper) }}" alt="corr">
+
+<body>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#9ABAD9;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#444;background-color:#EBF5FF;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#fff;background-color:#409cff;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+
+
+{% for res in result %}
+<table>
+<th>
+
+    <table class="tg">
+  <tr>
+    <th class="tg-0pky" colspan="2">{{res[0].puce}}</th>
+    <th class="tg-9wq8" rowspan="2">Concentration</th>
+    <th class="tg-9wq8" rowspan="2">date Saut</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">{{res[0].date}}</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi" rowspan="3">Voie</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-9wq8">{{res[0].pota.K1}}</td>
+    <td class="tg-9wq8">{{res[0].dateSaut.K1}}</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">2</td>
+    <td class="tg-9wq8">{{res[0].pota.K2}}</td>
+    <td class="tg-9wq8">{{res[0].dateSaut.K2}}</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">3</td>
+    <td class="tg-9wq8">{{res[0].pota.K3}}</td>
+    <td class="tg-9wq8">{{res[0].dateSaut.K3}}</td>
+  </tr>
+</table>
+</th>
+<th>
+     <img height="300" width="500" src="{{ url_for('displayPNG', filename =res[1]) }}" alt="mesure1">
+</th>
+    </table>
+<br>
+<br>
+{% endfor %}
+</body>
+
+</html>

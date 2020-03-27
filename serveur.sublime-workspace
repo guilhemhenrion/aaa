@@ -1,0 +1,375 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cali",
+				"cali0"
+			],
+			[
+				"dat",
+				"datanumpy"
+			],
+			[
+				"data",
+				"datanumpy"
+			],
+			[
+				"res",
+				"result3"
+			],
+			[
+				"as",
+				"astype"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"pent",
+				"pente3"
+			],
+			[
+				"pente",
+				"pente1"
+			],
+			[
+				"mesur",
+				"mesureT1"
+			],
+			[
+				"resul",
+				"result3"
+			],
+			[
+				"result",
+				"result1"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"ana",
+				"analyseCalv4"
+			],
+			[
+				"cl",
+				"clean"
+			],
+			[
+				"det",
+				"detPuce"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"puce",
+				"puce"
+			],
+			[
+				"ma",
+				"maxList1"
+			],
+			[
+				"max",
+				"maxList1"
+			],
+			[
+				"c",
+				"critSaut"
+			],
+			[
+				"detP",
+				"detPot"
+			],
+			[
+				"m",
+				"maxList1"
+			],
+			[
+				"maxList",
+				"maxList1"
+			],
+			[
+				"maxL",
+				"maxList2"
+			],
+			[
+				"da",
+				"datanumpy"
+			],
+			[
+				"po",
+				"pot3"
+			],
+			[
+				"re",
+				"resultat"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"pl",
+				"plt"
+			],
+			[
+				"tr",
+				"try\tTry/Except"
+			],
+			[
+				"T",
+				"TrouveMax"
+			],
+			[
+				"try",
+				"try\tTry/Except/Else"
+			],
+			[
+				"deriv",
+				"derivees"
+			],
+			[
+				"deri",
+				"derivees"
+			],
+			[
+				"der",
+				"derivees"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/guilhem henrion/Dropbox (CardioRenal)/SMQ - CardioRenal/Records/CONCEPTION & DEV-DEV/1_R&D/Consommable CR/ETALO/5_Trials/20191213 Campagne V/20191217_WK14_A06P265#00.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.2/templates/mesureK.html",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.2/templates/calibration.html",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.2/serveur.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.2/analyseCalv5.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.2/mesureKv3.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/WK13_C01C05C13C15C29_20191105POINT.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/serveur.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/datatestK/20191210_WK05_B17A4A4#00.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/analyseCalv5.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/templates/mesureK.html",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/graphe.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/mesureKv3.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/templates/index.html",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/templates/home.html",
+		"/C/Users/guilhem henrion/Downloads/Serveru 1.18 18May Back Up/serveur.js",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/mesureK.py",
+		"/C/Users/guilhem henrion/Downloads/Serveru 1.18 18May Back Up/views/FormIndex_Concise.ejs",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/number.py",
+		"/C/Users/guilhem henrion/Dropbox (CardioRenal)/SMQ - CardioRenal/Records/CONCEPTION & DEV-DEV/1_R&D/Consommable CR/ETALO/5_Trials/20191210 tests blisters/20191210_WK05_B19A4A4#01.csv",
+		"/C/Users/guilhem henrion/Dropbox (CardioRenal)/SMQ - CardioRenal/Records/CONCEPTION & DEV-DEV/1_R&D/Consommable CR/ETALO/5_Trials/20191210 tests blisters/20191210_WK05_B19A4A4#00.csv",
+		"/C/Users/guilhem henrion/Dropbox (CardioRenal)/SMQ - CardioRenal/Records/CONCEPTION & DEV-DEV/1_R&D/Consommable CR/ETALO/5_Trials/20191210 tests blisters/20191210_WK05_B18A4A4#01.csv",
+		"/C/Users/guilhem henrion/Dropbox (CardioRenal)/SMQ - CardioRenal/Records/CONCEPTION & DEV-DEV/1_R&D/Consommable CR/ETALO/5_Trials/20191210 tests blisters/20191210_WK05_B18A4A4#00.csv",
+		"/C/Users/guilhem henrion/Dropbox (CardioRenal)/SMQ - CardioRenal/Records/CONCEPTION & DEV-DEV/1_R&D/Consommable CR/ETALO/5_Trials/20191210 tests blisters/20191210_WK05_B17A4A4#00.csv",
+		"/C/Users/guilhem henrion/Downloads/Serveru 1.18 18May Back Up/views/FormIndex_External.ejs",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur_v0.1/TrouveMax.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/data.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/dataK.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/dataK3.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/dataK2.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/WK13_D29E03E04E05E06_20191127POINT.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/WK13_C01C05C13C15C29_20191105VIRGULE.csv",
+		"/C/Users/guilhem henrion/Downloads/WK13_C01C05C13C15_20191105.csv",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/TrouveMax.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/affichage.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/serveur.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/analyseCalv5.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/templates/calibration.html",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/templates/home.html",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/serveur.js",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/calibration.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/analyseCalv3.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/mesureK.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/node_modules/slack/slack.js",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/analyseCalv3.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/packaging/appel.py",
+		"/C/Users/guilhem henrion/AppData/Local/Programs/Python/Python37/Scripts/setup.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/graphe.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/TrouveMax.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/templates/hometravail.html",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/slackmess.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/slack.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/node_modules/envoyermail/envoyermail.js",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/node_modules/test/test.js",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/upload/1575295760390/command.bat",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/views/FormIndex_Concise.ejs",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/node_modules/python-shell/index.js",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/affichage2.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/home.py",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/serveur/home.html",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/upload/20191009.csv/command.bat",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/upload/testcal.csv/command.bat",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/upload/1575295760390/inputs.ini",
+		"/C/Users/guilhem henrion/Downloads/Serveru 1.18 18May Back Up/node_modules/test/test.js",
+		"/C/Users/guilhem henrion/Desktop/Geek/python/analyse K/appel.py",
+		"/C/Users/guilhem henrion/AppData/Local/Programs/Python/Python37/Scripts/salut.py",
+		"/C/Users/guilhem henrion/AppData/Local/Programs/Python/Python37/Scripts/stupµ.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "serveur.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

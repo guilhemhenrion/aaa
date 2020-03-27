@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+
+    <p>
+        Calibration avec :
+        <ul>
+        <li>CalibrationNoDC (sans correction de derive - Prise de potenteil à 60s avant le saut)<br></li>
+
+        <li>CalibrationDC (avec correction de derive - Saut de potentiel avec prise de potentiel a +/- 25s du saut)<br></li>
+    </p>
+    <h2><p>Telechargement resultat ici:</p>  <a href="{{ url_for('downloadCal', filename=filename) }}">Download</a></h2>
+
+<body>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#9ABAD9;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#444;background-color:#EBF5FF;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#fff;background-color:#409cff;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+
+{% for res in resultat %}
+<table>
+<th>
+   <table class="tg">
+  <tr>
+    <th class="tg-0pky" colspan="2">{{res[0][0].puce}}</th>
+    <th class="tg-c3ow" colspan="4">Concentration</th>
+    <th class="tg-nrix" rowspan="2">pente</th>
+    <th class="tg-nrix" rowspan="2">offset</th>
+    <th class="tg-nrix" rowspan="2">r</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">{{res[0][0].date}}</td>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">4</td>
+    <td class="tg-c3ow">7</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi" rowspan="3">Voie</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-9wq8">{{res[0][0].resultat.pot[0]}}</td>
+    <td class="tg-9wq8">{{res[0][0].resultat.pot[1]}}</td>
+    <td class="tg-9wq8">{{res[0][0].resultat.pot[2]}}</td>
+    <td class="tg-9wq8">{{res[0][0].resultat.pot[3]}}</td>
+    <td class="tg-nrix">{{res[0][0].resultat.pente}}</td>
+    <td class="tg-nrix">{{res[0][0].resultat.offset}}</td>
+    <td class="tg-nrix">{{res[0][0].resultat.r}}</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">2</td>
+    <td class="tg-9wq8">{{res[0][1].resultat.pot[0]}}</td>
+    <td class="tg-9wq8">{{res[0][1].resultat.pot[1]}}</td>
+    <td class="tg-9wq8">{{res[0][1].resultat.pot[2]}}</td>
+    <td class="tg-9wq8">{{res[0][1].resultat.pot[3]}}</td>
+    <td class="tg-nrix">{{res[0][1].resultat.pente}}</td>
+    <td class="tg-nrix">{{res[0][1].resultat.offset}}</td>
+    <td class="tg-nrix">{{res[0][1].resultat.r}}</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">1</td>
+    <td class="tg-9wq8">{{res[0][2].resultat.pot[0]}}</td>
+    <td class="tg-9wq8">{{res[0][2].resultat.pot[1]}}</td>
+    <td class="tg-9wq8">{{res[0][2].resultat.pot[2]}}</td>
+    <td class="tg-9wq8">{{res[0][2].resultat.pot[3]}}</td>
+    <td class="tg-nrix">{{res[0][2].resultat.pente}}</td>
+    <td class="tg-nrix">{{res[0][2].resultat.offset}}</td>
+    <td class="tg-nrix">{{res[0][2].resultat.r}}</td>
+  </tr>
+</table>
+</th>
+    <th>
+    <img height="200" width="300" src="{{ url_for('displayCal', filename =res[1]) }}" alt="mesure1">
+   </th>
+    <th>
+    <img height="200" width="300" src="{{ url_for('displayCal', filename =res[2]) }}" alt="mesure2">
+    </th>
+    <th>
+    <img height="200" width="300" src="{{ url_for('displayCal', filename =res[3]) }}" alt="mesure3">
+    </th>
+</table>
+
+<br>
+<br>
+<br>
+{% endfor %}
+</body>
+
+</html>

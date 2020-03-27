@@ -1,0 +1,22 @@
+import slack
+
+class SlackHelper:
+
+    def __init__(self):
+        self.slackToken = 'Slack_Bot_User_OAuth_Token';
+        self.slackClient = slack.WebClient(token=self.slackToken);
+
+    def send_slack_message(self, channel, message):
+        blocks = [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": message
+                }
+            }
+        ]
+        return self.slackClient.chat_postMessage(
+            channel=channel,
+            blocks=blocks
+        )
